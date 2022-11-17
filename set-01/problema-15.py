@@ -16,7 +16,7 @@ cuvantul1_sortat_crescator = [x for x in cuvantul1]
 cuvantul2_sortat_crescator = [x for x in cuvantul2]
 
 
-# verificam daca au acelasi numar de caractere
+# verificam daca ambele cuvinte au acelasi numar de caractere
 if(len(cuvantul1) == len(cuvantul2)):
     
     # ordonam crescator caracterele primului cuvant cu ajutorul algoritmului bubble sort
