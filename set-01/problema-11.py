@@ -11,7 +11,7 @@ numarator = 0
 # parcurgem fiecare caracter al textului in parte
 for caracter in text:
     numarator += 1
-    # in cazul in care caracterul nu este spatiu
+    # verificam daca caracterul nu este spatiu
     if caracter != ' ':
         # daca caracterul nu este spatiu, il adaugam la sfarsitul valorii variabilei temporare
         temp += caracter
