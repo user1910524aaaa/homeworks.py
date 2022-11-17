@@ -15,6 +15,7 @@ cuvantul2 = cuvantul2.lower()
 cuvantul1_sortat_crescator = [x for x in cuvantul1]
 cuvantul2_sortat_crescator = [x for x in cuvantul2]
 
+
 # verificam daca au acelasi numar de caractere
 if(len(cuvantul1) == len(cuvantul2)):
     
