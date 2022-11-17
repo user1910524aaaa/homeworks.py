@@ -13,7 +13,8 @@ for caracter in text:
     numarator += 1
     # in cazul in care caracterul este spatiu
     if caracter == ' ':
-        # adaugam valoarea variabilei temporare in lista de cuvinte
+        # adaugam in lista de cuvinte valoarea variabilei temporare, care detine ultimul cuvant format,
+        # inainte ca sa intre in bucla caracterul pentru spatiu
         lista_cuvinte.append(temp)
         # resetam valoarea variabilei temporare
         temp = ''
