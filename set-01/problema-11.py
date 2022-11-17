@@ -25,6 +25,5 @@ for caracter in text:
         if numarator == len(text):
             lista_cuvinte.append(temp)
 
-print(lista_cuvinte)
 print(f'In textul introdus anterior sunt {len(lista_cuvinte)} cuvinte.')
 
