@@ -43,6 +43,5 @@ if(len(cuvantul1) == len(cuvantul2)):
         print(cuvantul1 + ' si ' + cuvantul2 + ' sunt anagrame.')
     else:
         print(cuvantul1 + ' si ' + cuvantul2 + ' nu sunt anagrame.')
-
 else:
     print(cuvantul1 + ' si ' + cuvantul2 + ' nu sunt anagrame.')
