@@ -1,5 +1,5 @@
 print()
-print('Verificati daca doua liste de numere sunt disjuncte (nu au elemente comune).')
+print('Verificati daca doua liste de numere sunt disjuncte (nu au elemente comune). \n')
 print('introduceti numarul de elemente pe care doriti ca listele sa le aiba:')
 
 numar_elemente = int(input())
@@ -28,6 +28,9 @@ for i in lista1:
         if i == j:
             elemente_comune.append(i)
             
+print('Lista 1 originala: ', lista1)
+print('Lista 2 originala: ', lista2)
+
 if len(elemente_comune) < 1:
     print('liste1 si lista2 sunt disjuncte.')
 else:

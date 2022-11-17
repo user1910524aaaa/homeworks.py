@@ -1,4 +1,5 @@
-print("introduceti un text:")
+print('cititi un text si numarati cate vocale contine.')
+print('introduceti un text:')
 text = input()
 
 text_litere_mici = text.lower()
@@ -12,4 +13,4 @@ for litera in text_litere_mici:
         or litera =='â' or litera == 'î'):
         numar_vocale += 1
 
-print(f"in textul urmator: {text_litere_mici}, sunt {numar_vocale} vocale")
+print(f'in textul urmator: {text_litere_mici}, sunt {numar_vocale} vocale')

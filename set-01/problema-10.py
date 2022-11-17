@@ -1,11 +1,10 @@
 print()
-print('Numarati elementele care nu se repeta dintr-o lista cu numere. \n')
+print('Afisati in ordine inversa o lista de numere. \n')
 
 
 print('introduceti de la tastatura numarul de elemente pe care lista il va avea lista:')
 numar_elemente = int(input())
 lista = []
-elemente_care_nu_se_repeta = []
 
 print('introduceti elementele listei:')
 for i in range(numar_elemente):
@@ -14,10 +13,9 @@ for i in range(numar_elemente):
     lista.append(element)
     
 print('Lista originala: ', lista)
-    
 
-for element in lista:
-    if lista.count(element) < 2:  
-        elemente_care_nu_se_repeta.append(element)
-        
-print('Numarul elementelor care nu se repeta: ', len(elemente_care_nu_se_repeta))
+
+inversa_listei = []
+for value in lista:
+  inversa_listei = [value] + inversa_listei
+print('Inversa listei : ', inversa_listei)

@@ -2,7 +2,7 @@ print()
 print('Combinati doua liste sorate crescator intr-o noua lista sorata crescator. \n')
 
 
-print('introduceti de la tastatura numarul de elemnte pe care lista il va avea prima lista:')
+print('introduceti de la tastatura numarul de elemente pe care lista il va avea prima lista:')
 numar_elemente = int(input())
 lista1 = []
 

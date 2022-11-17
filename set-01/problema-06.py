@@ -1,6 +1,6 @@
 print()
 print('Rotiti o lista de numere de la stanga de n ori (se citeste n). \n')
-print('introduceti de la tastatura numarul de elemnte pe care lista il va avea:')
+print('introduceti de la tastatura numarul de elemente pe care lista il va avea:')
 
 lista = []
 numar_elemente = int(input())
@@ -14,7 +14,7 @@ print('introduceti n de la tastatura:')
 n = int(input())
 print('n = ', n)
     
-print ("Lista originala: " + str(lista))
+print ('Lista originala: ' + lista)
  
 # rotirea listei de la stanga cu ajutorul tehnicii slice
 lista_rotata_de_la_stanga = lista[-n:] + lista[:-n]
