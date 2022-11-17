@@ -13,7 +13,7 @@ for caracter in text:
     numarator += 1
     # verificam daca caracterul nu este spatiu
     if caracter != ' ':
-        # daca caracterul nu este spatiu, il adaugam la sfarsitul valorii variabilei temporare
+        # in cazul in care caracterul nu este spatiu, il adaugam la sfarsitul valorii variabilei temporare
         temp += caracter
         # in cazul in care suntem la ultimul caracter din text, 
         # adaugam in lista si ultimul cuvant stocat in variabila temp
