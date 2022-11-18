@@ -55,7 +55,6 @@ print('Lista originala: ', lista)
 
 # sfarsitul unui ciclu al buclei
 
-inversa_listei = []
 
 
 # pentru fiecare element din lista, bucla for parcurge un ciclu
@@ -63,5 +62,7 @@ for valoare in lista:
     inversa_listei = [valoare] + inversa_listei
 # sfarsitul unui ciclu al buclei
 # bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista
-  
+
+
+# inversa_listei = lista[::-1]
 print('Inversa listei : ', inversa_listei)
