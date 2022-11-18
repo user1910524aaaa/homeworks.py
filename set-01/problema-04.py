@@ -16,7 +16,7 @@ print('introduceti elementele primei liste:')
 # sa faca iteratia, incepand de la 0.
 for i in range(numar_elemente):
     # parametrul end din functia print, reprezinta ultimul caracter care este adaugat la capatul a ceea ce urmeaza sa fie afisat.
-    # in mod standard valoarea parametrului este '\n' (linie noua), iar noi o rescriem, inlocuind-o cu ' ' (spatiu).
+    # in mod standard valoarea parametrului end este '\n' (linie noua), iar noi o rescriem, inlocuind-o cu ' ' (spatiu).
     # motivul pentru care facem acest lucru, este acela ca vrem sa afisam pe aceasi linie atat elementul, 
     # cat si valoarea atribuita dinamic
     print(f'lista1[{i}] = ', end=' ')
@@ -27,7 +27,7 @@ for i in range(numar_elemente):
     lista1.append(element)
     
 # sfarsitul unui ciclu al buclei
-# bucla incepe un nou ciclu, atata timp cat urmatorul ciclu are numarul intre 0 si valoarea variabilei numar_elemente 
+# bucla incepe un nou ciclu, atata timp cat urmatorul ciclu este cuprins intre 0 si valoarea variabilei numar_elemente 
     
     
 print('introduceti elementele celei de-a doua liste:')
