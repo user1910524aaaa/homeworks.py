@@ -21,7 +21,7 @@ caracter_nou = input()
 # => text[0]='a', text[1]='n', t[2]='a', text[3]=' ', text[4]='a', text[5]='r', text[6]='e', text[7] =' ', text[8]='m', 
 # text[9]='e', text[10]='r', text[11]='e'
 
-# pozitie_carcater = int(input()) - 1 => 9 - 1 => pozitie_caracter = 8 => text[8]='m'
+# pozitie_carcater = int(input()) - 1 => pozitie_carcater = 9 - 1 => pozitie_caracter = 8 => text[pozitie_caracter]='m'
 
 # caracter_nou = 'p'
 
