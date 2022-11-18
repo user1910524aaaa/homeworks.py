@@ -14,8 +14,54 @@ for i in range(numar_elemente):
     
 print('Lista originala: ', lista)
 
+# pentru fiecare element din lista, bucla for parcurge un ciclu
+# EXEMPLU:
+
+# lista = [1, 2, 3, 4, 5]
+
+# inversa_listei = []
+
+# primul ciclu:
+# for 1 in lista
+    # inversa_listei = [1] + inversa_listei => inversa_listei = [1]
+    
+# sfarsitul unui ciclu al buclei
+    
+    
+# al doilea ciclu:
+# for 2 in lista
+    # inversa_listei = [2] + inversa_listei => inversa_listei = [2, 1]
+    
+# sfarsitul unui ciclu al buclei
+
+    
+# al treilea ciclu:
+# for 3 in lista
+    # inversa_listei = [3] + inversa_listei => inversa_listei = [3, 2, 1]
+    
+# sfarsitul unui ciclu al buclei
+    
+    
+# al patrulea ciclu:
+# for 4 in lista
+    # inversa_listei = [4] + inversa_listei => inversa_listei = [4, 3, 2, 1]
+    
+# sfarsitul unui ciclu al buclei
+    
+    
+# al cincilea ciclu:
+# for 5 in lista
+    # inversa_listei = [5] + inversa_listei => inversa_listei = [5, 4, 3, 2, 1]
+
+# sfarsitul unui ciclu al buclei
 
 inversa_listei = []
-for value in lista:
-  inversa_listei = [value] + inversa_listei
+
+
+# pentru fiecare element din lista, bucla for parcurge un ciclu
+for valoare in lista:
+    inversa_listei = [valoare] + inversa_listei
+# sfarsitul unui ciclu al buclei
+# bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista
+  
 print('Inversa listei : ', inversa_listei)
