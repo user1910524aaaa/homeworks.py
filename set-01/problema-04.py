@@ -63,5 +63,5 @@ for element_lista1 in lista1:
 print('Lista 1 originala: ', lista1)
 print('Lista 2 originala: ', lista2)
 
-if len(elemente_comune) < 1: print('liste1 si lista2 sunt disjuncte.')
+if len(elemente_comune) < 1: print('lista1 si lista2 sunt disjuncte.')
 else: print(f'lista1 si lista2 nu sunt disjuncte. Au {len(elemente_comune)} elemente comune')
