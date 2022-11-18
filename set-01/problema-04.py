@@ -26,6 +26,9 @@ for i in range(numar_elemente):
     # adaugam valoarea preluata prin variabila element in lista1
     lista1.append(element)
     
+# sfarsitul unui ciclu al buclei
+# bucla incepe un nou ciclu, atata timp cat urmatorul ciclu are numarul intre 0 si valoarea variabilei numar_elemente 
+    
     
 print('introduceti elementele celei de-a doua liste:')
 
@@ -50,6 +53,12 @@ for element_lista1 in lista1:
             # in cazul in care exista o egalitate intre un element din lista1 si un element din lista2,
             # elementul respectiv este adaugat in cea de-a treia lista (elemente_comune)
             elemente_comune.append(i)
+            
+        # sfarsitul unui ciclu al buclei a doua
+        # bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista2
+        
+# sfarsitul unui ciclu al primei bucle
+# bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista1
             
 print('Lista 1 originala: ', lista1)
 print('Lista 2 originala: ', lista2)
