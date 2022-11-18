@@ -54,8 +54,8 @@ for element_lista1 in lista1:
             # elementul respectiv este adaugat in cea de-a treia lista (elemente_comune)
             elemente_comune.append(i)
             
-        # sfarsitul unui ciclu al buclei a doua
-        # bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista2
+    # sfarsitul unui ciclu al buclei a doua
+    # bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista2
         
 # sfarsitul unui ciclu al primei bucle
 # bucla incepe un nou ciclu pentru fiecare element al listei atrbuita variabilei lista1
