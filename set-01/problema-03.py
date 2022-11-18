@@ -7,7 +7,7 @@ r = float(input())
 
 aria_cercului = Math.pi * r * r
 
-print(f"Aria cercului cu raza de {r} cm, este: {aria_cercului} cm^2")
+print(f'Aria cercului cu raza de {r} cm, este: {aria_cercului} cm^2')
 
 
 
