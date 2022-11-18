@@ -14,10 +14,10 @@ print('introduceti n de la tastatura:')
 n = int(input())
 print('n = ', n)
     
-print ('Lista originala: ' + lista)
+print ('Lista originala: ', lista)
  
 # rotirea listei de la stanga cu ajutorul tehnicii slice
 lista_rotata_de_la_stanga = lista[-n:] + lista[:-n]
  
-print (f'Lista dupa ce a fost facuta rotatia de la stanga de {n} ori: ' + str(lista_rotata_de_la_stanga))
+print (f'Lista dupa ce a fost facuta rotatia de la stanga de {n} ori: ', lista_rotata_de_la_stanga)
  

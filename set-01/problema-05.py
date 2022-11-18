@@ -26,4 +26,4 @@ print('Lista originala: ', lista)
 
 lista_rotata_de_la_dreapta = lista[n:] + lista[:n]
  
-print (f'Lista dupa ce a fost facuta rotatia de la dreapta de {n} ori: ' + str(lista_rotata_de_la_dreapta))
+print (f'Lista dupa ce a fost facuta rotatia de la dreapta de {n} ori: ', lista_rotata_de_la_dreapta)
